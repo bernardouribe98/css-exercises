@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
 }
 
 img {
@@ -10,8 +13,42 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
+.images {
+  display: flex;
+  gap: 52px;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+}
+
+.barberry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chilli {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pepper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
